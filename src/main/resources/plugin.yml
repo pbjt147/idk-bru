@@ -1,0 +1,17 @@
+name: GheadCORE
+version: 1.2.0
+main: com.example.gheadcore.GheadCorePlugin
+api-version: '26.3'
+description: Weapon ultimates, netherite armor mode, and the trial chamber altar holding The Altar's Sword.
+commands:
+  gheadcore:
+    description: Open the GheadCORE settings GUI.
+    usage: /gheadcore [config|reload|ultimate <name>|resetcooldowns [player]|altar|givesword [player]]
+    aliases: [ghead, tweaks, wt]
+permissions:
+  gheadcore.config:
+    description: Use the settings GUI, reload, resetcooldowns, altar and givesword
+    default: op
+  gheadcore.ultimate:
+    description: Activate ultimates
+    default: true
